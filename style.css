@@ -7,3 +7,7 @@
   width: 80%;
   height: auto;
 }
+
+div#header p, div#header li {
+  text-align: left;
+}
