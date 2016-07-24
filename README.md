@@ -37,7 +37,7 @@ We invite you to hack three key themes:
 * Pop! Outside the eco-chamber
 * Ministers Under the Influence
 * Campaign.ninja
-* The Ohter Voices
+* The Other Voices
 * Brex Lex
 * Exit Gap
 * I Streetwatch
@@ -45,4 +45,5 @@ We invite you to hack three key themes:
 * What The Fact?
 * Fixit
 
-
+## Created by
+* Tanya Powell, Eddie Jaoude, Hyewon Kim

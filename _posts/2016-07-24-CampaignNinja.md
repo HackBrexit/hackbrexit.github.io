@@ -1,6 +1,6 @@
 ---
 layout: default
-name: CampaignNinja
+name: Campaign. Ninja
 description: Mobilise a mass leaflet or door to door campaign quickly and easily
 display_date: July 2016
 github_url: https://github.com/HackBrexit/CampaigningNinja
