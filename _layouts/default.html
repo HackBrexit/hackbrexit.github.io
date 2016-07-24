@@ -5,9 +5,10 @@
 
     {% for post in site.posts %}
     <div class="card">
+        <h3 class="card-header">{{ post.name }}</h3>
         <!--<img class="card-img-top" data-src="..." alt="Card image cap">-->
         <div class="card-block">
-            <h4 class="card-title">{{ post.name }}</h4>
+            <!--<h4 class="card-title"></h4>-->
             <p class="card-text">{{ post.description }}</p>
         </div>
         <!--<ul class="list-group list-group-flush">-->
@@ -15,10 +16,17 @@
             <!--<li class="list-group-item">Dapibus ac facilisis in</li>-->
             <!--<li class="list-group-item">Vestibulum at eros</li>-->
         <!--</ul>-->
-        <!--<div class="card-block">-->
-            <!--<a href="#" class="card-link">Card link</a>-->
-            <!--<a href="#" class="card-link">Another link</a>-->
-        <!--</div>-->
+        <div class="card-block">
+            <a href="{{ post.github_url }}" class="card-link">
+                <i class="fa fa-github" aria-hidden="true"></i> GitHub
+            </a>
+            <a href="{{ post.presentation_url }}" class="card-link">
+                <i class="fa fa-line-chart" aria-hidden="true"></i> Presentation
+            </a>
+        </div>
+        <div class="card-footer text-muted">
+            {{ post.display_date }}
+        </div>
     </div>
     {% endfor %}
 </div>
