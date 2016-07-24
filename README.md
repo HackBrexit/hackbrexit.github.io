@@ -45,4 +45,5 @@ We invite you to hack three key themes:
 * What The Fact?
 * Fixit
 
-
+## Created by
+* Tanya Powell, Eddie Jaoude, Hyewon Kim
