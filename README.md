@@ -31,3 +31,16 @@ We invite you to hack three key themes:
 * `cd /vagrant`
 * `jekyll serve --force_polling`
 * Visit http://192.168.51.100:4000/
+
+## Project List
+* Pop! Outside the eco-chamber
+* Ministers Under the Influence
+* Campaign.ninja
+* The Ohter Voices
+* Brex Lex
+* Exit Gap
+* I Streetwatch
+* Brexit Net
+* What The Fact?
+* Fixit
+ 
