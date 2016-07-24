@@ -8,21 +8,21 @@
         <h3 class="card-header">{{ post.name }}</h3>
         <!--<img class="card-img-top" data-src="..." alt="Card image cap">-->
         <div class="card-block">
-            <!--<h4 class="card-title"></h4>-->
-            <p class="card-text">{{ post.description }}</p>
-        </div>
-        <!--<ul class="list-group list-group-flush">-->
-            <!--<li class="list-group-item">Cras justo odio</li>-->
-            <!--<li class="list-group-item">Dapibus ac facilisis in</li>-->
-            <!--<li class="list-group-item">Vestibulum at eros</li>-->
-        <!--</ul>-->
-        <div class="card-block">
-            <a href="{{ post.github_url }}" class="card-link" target="_blank">
-                <i class="fa fa-github" aria-hidden="true"></i> GitHub
-            </a>
-            <a href="{{ post.presentation_url }}" class="card-link" target="_blank">
-                <i class="fa fa-line-chart" aria-hidden="true"></i> Presentation
-            </a>
+            <div class="row">
+                <div class="col-sm-4">
+                    <img src="https://cloud.githubusercontent.com/assets/624760/17083561/17052826-519d-11e6-9114-ab53b3d7724e.jpeg" alt="youtube placeholder" width="300px" />
+                </div>
+
+                <div class="col-sm-8">
+                    <p class="card-text">{{ post.description }}</p>
+                    <a href="{{ post.github_url }}" class="card-link" target="_blank">
+                        <i class="fa fa-github" aria-hidden="true"></i> GitHub
+                    </a>
+                    <a href="{{ post.presentation_url }}" class="card-link" target="_blank">
+                        <i class="fa fa-line-chart" aria-hidden="true"></i> Presentation
+                    </a>
+                </div>
+            </div>
         </div>
         <div class="card-footer text-muted">
             {{ post.display_date }}
