@@ -2,6 +2,8 @@
 
 List projects & team members from the July 2016 Hackathon
 
+![Logo](https://info.thoughtworks.com/rs/199-QDE-291/images/HackBrexit.png)
+
 ## Dependencies
 
 * Jekyll
