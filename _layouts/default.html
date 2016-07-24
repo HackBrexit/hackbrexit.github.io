@@ -1,9 +1,12 @@
 {% include head.html %}
-    <body>
-      <div class="container">
-        {% include header.html %}
-        {{ content }}
-      </div>
-    </body>
+<body>
+<div class="container-fluid">
+    {% include header.html %}
+
+    {% for post in site.posts %}
+    <p>{{ post.name }}</p>
+    {% endfor %}
+</div>
+</body>
 <!-- End of html -->
 </html>
