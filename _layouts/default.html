@@ -5,16 +5,26 @@
 
     {% for post in site.posts %}
     <div class="card">
-        <h3 class="card-header">{{ post.name }}</h3>
+        <h3 class="card-header">
+            {{ post.name }}
+            {% if post.status == 'active' %}
+                <span class="label label-success">Active</span>
+            {% endif %}
+            {% if post.status == 'inactive' %}
+                <span class="label label-danger">Inactive</span>
+            {% endif %}
+        </h3>
         <!--<img class="card-img-top" data-src="..." alt="Card image cap">-->
         <div class="card-block">
             <div class="row">
                 <div class="col-sm-4">
+                    {% if post.introduction_url %}
                     <div class="card-img-top embed-responsive embed-responsive-16by9">
                         <iframe class="embed-responsive-item"
                                 src="//www.youtube.com/embed/{{ post.introduction_url }}?rel=0"
                                 allowfullscreen></iframe>
                     </div>
+                    {% endif %}
                 </div>
 
                 <div class="col-sm-8">
