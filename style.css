@@ -1,12 +1,7 @@
 #header, footer {
   padding: 30px 30px;
   text-align: center;
-}
-
-#logo {
-  width: 80%;
-  height: auto;
-}
+} 
 
 div#header p, div#header li {
   text-align: left;
