@@ -46,4 +46,5 @@ We invite you to hack three key themes:
 * Fixit
 
 ## Created by
+
 * Tanya Powell, Eddie Jaoude, Hyewon Kim
