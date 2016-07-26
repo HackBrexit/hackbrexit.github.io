@@ -1,0 +1,14 @@
+{% include head.html %}
+
+<div class="container">
+    {% include header.html %}
+
+    {% for image in site.static_files %}
+        {% if image.path contains 'img/gallery' %}
+                <img class="img-thumbnail" src="{{ site.baseurl }}{{ image.path }}" alt="HackBrexit 1st Hackathon Photo">
+        {% endif %}
+    {% endfor %}
+</div>
+{% include footer.html %}
+
+{% include foot.html %}
