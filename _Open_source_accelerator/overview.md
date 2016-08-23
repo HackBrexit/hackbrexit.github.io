@@ -35,3 +35,8 @@ We want to continue from the success of the Hack Brexit hackathon on the 23-4 Ju
 
 
 We'll be updating this page with further information as the projects develop, so do watch this space!
+
+### Sign up to join our mailing list here!
+<script src="//app-e.marketo.com/js/forms2/js/forms2.min.js"></script>
+<form id="mktoForm_4929"></form>
+<script>MktoForms2.loadForm("//app-e.marketo.com", "199-QDE-291", 4929);</script>
