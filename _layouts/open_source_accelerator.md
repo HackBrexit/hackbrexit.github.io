@@ -1,7 +1,9 @@
----
-title: Hack Brexit open source accelerator overview
----
-# Introduction - Overview
+{% include head.html %}
+
+<div class="container">
+    {% include header.html %}
+
+# Hack Brexit open source accelerator overview
 
 ###  What is the accelerator all about?
 
@@ -40,3 +42,8 @@ We'll be updating this page with further information as the projects develop, so
 <script src="//app-e.marketo.com/js/forms2/js/forms2.min.js"></script>
 <form id="mktoForm_4929"></form>
 <script>MktoForms2.loadForm("//app-e.marketo.com", "199-QDE-291", 4929);</script>
+
+</div>
+{% include footer.html %}
+
+{% include foot.html %}
