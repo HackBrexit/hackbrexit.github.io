@@ -8,10 +8,26 @@
 <p>Sign up on our Hack Brexit contact form for us to keep you updated with all of the latest news </p>
 
 <form method="POST" action="http://formspree.io/hackbrexit@gmail.com">
+
+<form class="form-inline">
+  <div class="form-group">
+       <label for="exampleInputName2">Name</label>
+       <input type="name" name="name" class="form-control" id="exampleInputName2" placeholder="Your name">
+
+ </div>
+ <div class="form-group">
+   <label for="exampleInputEmail2">Email</label>
+   <input type="email" email="email" class="form-control" id="exampleInputEmail2" placeholder="Your email">
+ </div>
+ <button type="submit" class="btn btn-primary">Sign up for updates on Hack Brexit</button>
+</form>
+
+{% comment %}
   <input type="email" name="email" placeholder="Your email">
   <input type="name" name="name" placeholder="Your name">
   <button type="submit">Send</button>
 </form>
+{% endcomment %}
 
 </div>
 {% include footer.html %}
