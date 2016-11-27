@@ -5,12 +5,20 @@
 
 <h1>Hack Brexit Mailing List</h1>
 
-<p>Sign up on our Hack Brexit contact form for us to keep you updated with all of the latest news </p>
+<p>Fill in your details here for us to keep you updated with the latest news about the Hack Brexit project.</p>
 
-<form method="POST" action="http://formspree.io/hackbrexit@gmail.com">
-  <input type="email" name="email" placeholder="Your email">
-  <input type="name" name="name" placeholder="Your name">
-  <button type="submit">Send</button>
+<form method="post" action="http://formspree.io/hackbrexit@gmail.com">
+  <div class="form-group">
+    <label for="fullname">Full Name</label>
+    <input type="name" name="name" class="form-control" id="fullname" placeholder="Your fullname">
+  </div>
+
+   <div class="form-group">
+     <label for="email">Email</label>
+     <input type="email" email="email" class="form-control" id="email" placeholder="Your email">
+   </div>
+
+ <button type="submit" class="btn btn-primary btn-block">Sign up for updates on Hack Brexit</button>
 </form>
 
 </div>
