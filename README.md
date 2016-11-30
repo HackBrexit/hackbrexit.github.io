@@ -47,4 +47,4 @@ We invite you to hack three key themes:
 
 ## Created by
 
-* Tanya Powell, Eddie Jaoude, Hyewon Kim
+* Tanya Powell, Eddie Jaoude, Hyewon Kim, Charlotte Fereday
