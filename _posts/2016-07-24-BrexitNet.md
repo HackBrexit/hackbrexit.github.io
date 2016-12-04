@@ -6,5 +6,5 @@ display_date: July 2016
 github_url: https://github.com/HackBrexit/BrexitNet
 presentation_url:
 introduction_url:
-status: on hold
+status: On hold
 ---
