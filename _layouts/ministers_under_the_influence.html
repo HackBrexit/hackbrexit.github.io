@@ -1,45 +1,53 @@
 {% include head.html %}
 
 <div class="container">
-    {% include header.html %}
+      {% include header.html %}
 
   <h1>Ministers Under The Influence MVP</h1>
-
-  <ul>
-    <li><p><b>Ministers Under The Influence is one of the two MVP projects produced during the Hack Brexit<a href="http://hackbrexit.org/open_source_accelerator.html" target="_blank"> 3 month open source accelerator programme.</a></p></b></li>
-  </ul>
-
-<h2>#HackBrexit: Ministers Under The Influence?</h2>
+  {% for image in site.static_files %}
+      {% if image.path contains 'img/Muti' %}
+              <img class="img-thumbnail" src="{{ site.baseurl }}{{ image.path }}" alt="HackBrexit 1st Hackathon Photo">
+      {% endif %}
+  {% endfor %}
+<br></br>
+<h2><b>#HackBrexit: Ministers Under The Influence?</b></h2>
 
 <p>Ministers Under the Influence is a project that came out of the #HackBrexit Hackathon which took place during one weekend, July 23-24 in 2016. The project was further developed during the Hack Brexit accelerator programme which ran September - December 2016. See the site for the full project<a href="http://ministersundertheinfluence.co.uk" target="_blank"> here.</a></p>
-
-<h2>The Project</h2>
+<br></br>
+<h2><b>The Project</b></h2>
 
 <p>The aim of Ministers Under the Influence is to unearth public-but-obscure information about who ministers are meeting. By making this data more accessible we can hope to better hold our government to account. We hope this will feed into a wider project about tracking who is influencing our elected politicians.</p>
+<br></br>
 
-<h2>The Team</h2>
+<h2><b>Core Project Team</b></h2>
 <ul>
 <li><p><a href="https://github.com/aspiers" target="_blank">Adam Spiers</a></p></li>
 <li><p><a href="https://github.com/Greatlemer" target="_blank">Adrian Rogers</a></p></li>
 <li><p><a href="https://twitter.com/AlexRunswick" target="_blank">Alex Runswick</a></p></li>
 <li><p><a href="https://twitter.com/CharlotteBRF" target="_blank">Charlotte Fereday</a></p></li>
 <li><p><a href="https://github.com/cy0023" target="_blank">Chris Yeowood</a></p></li>
+<li><p><a href="https://github.com/elischutze" target="_blank">Eli Schutze Ramírez</a></p></li>
+<li><p><a href="https://github.com/jo-osborne" target="_blank">Joanne Osborne</a></p></li>
+<li><p><a href="https://github.com/JohnSmall" target="_blank">John Small</a></p></li>
+</ul>
+
+<br></br>
+<h2><b>Project Contributors</b></h2>
+<ul>
 <li><p><a href="https://github.com/eddiejaoude" target="_blank">Eddie Jaoude</a></p></li>
 <li><p><a href="https://github.com/eleanombre" target="_blank">Eleanor Keane</a></p></li>
-<li><p><a href="https://github.com/elischutze" target="_blank">Eli Schutze Ramírez</a></p></li>
 <li><p><a href="https://github.com/graemea1" target="_blank">Graeme</a></p></li>
-<li><p><a href="https://github.com/jo-osborne" target="_blank">Joanne Osborne</a></p></li>
 <li><p><a href="https://github.com/joerayme" target="_blank">Joe Ray</a></p></li>
-<li><p><a href="https://github.com/JohnSmall" target="_blank">John Small</a></p></li>
 <li><p><a href="https://github.com/lucetzer" target="_blank">Lucy Fang</a></p></li>
 <li><p><a href="https://github.com/zoodor" target="_blank">Mark T</a></p></li>
 <li><p><a href="https://github.com/n3dst4" target="_blank">Neil de Carteret</a></p></li>
 <li><p><a href="https://github.com/sikesLpp" target="_blank">Sikes</a></p></li>
-<li><p><a href="INCOMPLETE" target="_blank">Tamasin </a></p></li>
+
 </ul>
 
+<br></br>
 
-<h2>Want to get involved?</h2>
+<h2><b>Want to get involved?</b></h2>
 <p>Whilst the 3 month accelerator programme which ran September - December 2016 is now over, we would still welcome contributions for the project. Please join us on slack to begin contributing <a href="https://hackbrexit.herokuapp.com/" target="_blank"> here.</a> and on the github repository <a href="https://github.com/HackBrexit/MinistersUnderTheInfluence">here.</a></p>
 
 
